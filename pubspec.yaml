@@ -1,0 +1,55 @@
+name: app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  storage_path: ^0.2.0
+  draggable_scrollbar: ^0.0.4
+  flutter_swiper: ^1.1.6
+  video_player: ^0.10.12+4
+  pin_code_view: ^0.1.1
+  shared_preferences: ^0.5.12
+  share: ^0.6.5+2
+  multi_image_picker: ^4.7.14
+  flutter_absolute_path: ^1.0.6
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.7.3
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: images/gallery_logo.png
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/gallery_logo.png
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
